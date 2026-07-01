@@ -8,7 +8,9 @@
             "templatelayout@^4.17.0",
             "template-seasons@^4.17.0",
             "theme-everlasting@^4.17.0",
-            "toolset@^4.17.0"
+            "toolset@^4.17.0",
+            "toc",
+            "coordinateviewer"
         ]
     },
     "bundles": {
@@ -32,7 +34,8 @@
                             "title": "Kreise",
                             "type": "AGS_FEATURE",
                             "url": "https://services.conterra.de/server/rest/services/mapapps/grenzen/FeatureServer/1",
-                            "definitionExpression": "land_nr = 5"
+                            "definitionExpression": "land_nr = 5",
+                            "minScale": 1000000
                         },
                         {
                             "title": "Bundeslaender",
